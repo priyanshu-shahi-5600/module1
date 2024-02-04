@@ -1,0 +1,109 @@
+
+.cod{
+   color: #FF5151;
+   justify-content: space-between;
+   align-items: center;
+}
+.titles{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h{
+    color:#FF5151;
+}
+
+.container-nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    padding:0;
+    display: flex;
+}
+nav li{
+    color:#4F5665;
+    margin-left: 2em;
+}
+@media(max-width:640px){
+    .container{
+        text-align: center;
+    }
+    .container-nav{
+        flex-direction:row;
+    }
+    nav ul{
+        flex-direction:row;
+    }
+    nav li{
+        margin:0.8em 0;
+    }
+}
+#fashion{
+    background-color: #FCCB9070;
+}
+.g{
+    display:flex;
+    justify-content: right;
+   align-items:center;
+}
+.e{
+    background-color:#FF5E3A;
+    color:#FFFFFF;
+}
+.f{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.col{
+    display:flex;
+    justify-content:center;
+   align-items:center;  
+}
+.tc{
+    display:flex;
+    justify-content:center;
+   align-items:center;
+}
+#cb{
+    display:flex;
+    justify-content:center;
+   align-items:center;
+}
+#categories{
+    display:flex;
+    justify-content:center;
+   align-items:center;
+}
+.nc{
+    display:flex;
+    justify-content:center;
+   align-items:center;
+}
+.lc{
+    display:flex;
+    justify-content:center;
+   align-items:center;
+}
+#cart{
+    display:flex;
+    justify-content: space-between;
+   align-items:center;
+}
+#ltc{
+    display:flex;
+    justify-content: space-between;
+   align-items:center;
+}
+#gtb{
+    display:flex;
+    justify-content: space-between;
+   align-items:center;
+}
+
+#foot{
+    display:flex;
+    justify-content: space-between;
+   align-items:center;
+}
